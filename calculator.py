@@ -1,34 +1,46 @@
-# Simple Calculator Program
-# Created by Jatin Monga
+# Simple Python Calculator
 
-# Ask user for numbers
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
 
-# Ask user for operation
-print("Choose operation:")
-print("1. Add")
-print("2. Subtract")
-print("3. Multiply")
-print("4. Divide")
+def add(a, b):
+    return a + b
 
-choice = input("Enter choice (1/2/3/4): ")
+def subtract(a, b):
+    return a - b
 
-# Perform operation
-if choice == '1':
-    print("Result:", num1 + num2)
+def multiply(a, b):
+    return a * b
 
-elif choice == '2':
-    print("Result:", num1 - num2)
+def divide(a, b):
+    if b == 0:
+        return "Cannot divide by zero!"
+    return a / b
 
-elif choice == '3':
-    print("Result:", num1 * num2)
+print("Welcome to Simple Calculator!")
 
-elif choice == '4':
-    if num2 != 0:
-        print("Result:", num1 / num2)
+while True:
+    print("\nSelect operation:")
+    print("1. Add")
+    print("2. Subtract")
+    print("3. Multiply")
+    print("4. Divide")
+    print("5. Exit")
+
+    choice = input("Enter choice (1/2/3/4/5): ")
+
+    if choice == '5':
+        print("Exiting calculator. Goodbye!")
+        break
+
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+
+    if choice == '1':
+        print("Result:", add(num1, num2))
+    elif choice == '2':
+        print("Result:", subtract(num1, num2))
+    elif choice == '3':
+        print("Result:", multiply(num1, num2))
+    elif choice == '4':
+        print("Result:", divide(num1, num2))
     else:
-        print("Error: Cannot divide by zero!")
-
-else:
-    print("Invalid Input")
+        print("Invalid input. Please try again.")
