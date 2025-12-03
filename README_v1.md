@@ -1,0 +1,2 @@
+# AI Calculator
+This is a beginner Python calculator project. It performs basic arithmetic operations like addition, subtraction, multiplication, and division.
