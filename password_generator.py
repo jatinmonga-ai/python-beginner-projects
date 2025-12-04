@@ -9,5 +9,8 @@ while True:
     chars = string.ascii_letters + string.digits + string.punctuation
     password = "".join(random.choice(chars) for _ in range(length))
     print("Your password is:", password, "\n")
+    
+ input("Press Enter to exit...")
+   
 
 
