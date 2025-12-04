@@ -1,4 +1,4 @@
-#1. Calculator
+##1. Calculator
 
 This is a beginner Python calculator project. It performs operations like:
 - Addition
@@ -13,7 +13,7 @@ This is a beginner Python calculator project. It performs operations like:
 3. Follow the on-screen instructions to perform calculations
 
 
-#2. Password Generator
+##2. Password Generator
 
 This is a simple Python program that generates a strong random password based on the length you choose.
 You can continue generating new passwords or type "exit" to quit.
