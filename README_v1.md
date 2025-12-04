@@ -1,4 +1,4 @@
-##1. Calculator
+##1 Calculator
 
 This is a beginner Python calculator project. It performs operations like:
 - Addition
