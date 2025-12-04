@@ -1,11 +1,12 @@
 #1. Calculator
 
-This is a beginner Python calculator project. It performs basic arithmetic operations like:
+This is a beginner Python calculator project. It performs operations like:
 - Addition
 - Subtraction
 - Multiplication
 - Division
-
+- Squareroot
+  
 ## How to use
 1. Download or clone the repository.
 2. Run the `calculator.py` file in Python.
