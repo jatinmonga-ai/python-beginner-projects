@@ -7,4 +7,4 @@ define generate_password(length):
        return password
 
 password_length = int(input("Enter password length: "))
-print("Your generated password is : ", generate_password(password_length)
+print("Your generated password is : ", generate_password(password_length))
