@@ -1,21 +1,13 @@
-import random
+import random 
 import string
 
-def generate_password(length):
-    characters = string.ascii_letters + string.digits + string.punctuation
-    password = ''.join(random.choice(characters) for i in range(length))
-    return password
-
 while True:
-    user_input = input("Enter password length (or type 'exit' to quit): ")
-    
-    if user_input == "exit":
-        print("Goodbye!")
+    length = input("Enter password length (or 'exit' to quit): ")
+    if length == "exit":
         break
-    
-    length = int(user_input)
-    password = generate_password(length)
-    print("Your password is:", password)
-    print()
+    length = int(length)
+    chars = string.ascii_letters + string.digits + string.punctuation
+    password = "".join(random.choice(chars) for _ in range(length))
+    print("Your password is:", password, "\n")
 
 
