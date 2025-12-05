@@ -1,6 +1,8 @@
 #1. Calculator
 
-This is a beginner Python calculator project. It performs operations like:
+This is a beginner Python calculator project. 
+
+#Features:
 - Addition
 - Subtraction
 - Multiplication
@@ -42,7 +44,7 @@ You can add tasks, view all tasks, delete tasks, and exit the program.
 -Exit the program at any time
 -Clean and simple Python code for beginners
 
-##How to Run
+##How to use
 1. Download or clone the repository.
 2. Run the 'todo_list.py' in python.
 3. Follow the on-screen menu to manage your tasks.
