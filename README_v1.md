@@ -46,7 +46,7 @@ You can add tasks, view all tasks, delete tasks, and exit the program.
 
 ##How to use
 1. Download or clone the repository.
-2. Run the 'todo_list.py' in python.
+2. Run the `todo_list.py` file in python.
 3. Follow the on-screen menu to manage your tasks.
 
    
