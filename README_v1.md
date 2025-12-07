@@ -77,16 +77,16 @@ A super simple and fun "Python emoji chatbot" for beginners. This chatbot respon
 
 Quick tip: "I used NOTEPAD to insert emojis, and then copy paste the code in IDLE."
 
-## 📌 What This Chatbot Does
+##  What This Chatbot Does
 
 * Greets the user.
 * Responds with different emojis based on mood or keywords.
 * Ends when the user types bye.
 
-## 🛠️ How to Run This Project
+##  How to Run This Project
 
-### **1. Open IDLE (Python)**
-* Search for **IDLE** on your computer
+### 1. Open IDLE (Python)
+* Search for IDLE on your computer
 * Click **File → New File**
 * Copy & paste the full code below
 * Save the file as **emoji_chatbot.py**
@@ -121,7 +121,7 @@ while True:
 ```
 
 ##  Running the Program
-* After pasting the code, press **F5** or go to **Run → Run Module**
+* After pasting the code, press F5 or go to Run → Run Module**
 * A new window will open
 * Type something and the chatbot will reply with emojis!
 
@@ -152,6 +152,31 @@ Install the required library using:
 2. Run the script:
 3. Enter any text or URL you want
 4. Your QR code will be saved automatically as `my_qr_code.png` in the same folder, you saved original file.
+
+
+#7.  Simple Quiz Game 
+
+A small, console-based quiz game built from scratch.  
+The quiz asks 4 simple questions; the user can answer them in any order or exit early. At the end, the program shows the final score.
+
+
+## Features
+- Ask 4 different questions.  
+- User can choose which question to answer (by entering 1–4).  
+- At any time, the user can choose option 5 to exit.  
+- Tracks how many questions were answered and total score.  
+- At exit:  
+  - If user answered all questions → shows pass/fail result based on score.  
+  - If user exited before finishing all questions → shows “quiz not completed” message.  
+- Validates input: ensures user enters a valid menu choice.  
+- Simple console interaction — no external libraries required.
+
+## 🧑‍💻 How to Run
+1. Make sure you have Python installed.  
+2. Save the main code in a file, e.g., `Quiz game.py`.  
+3. Open a terminal (or command prompt), go to the folder containing `Quiz game.py`.  
+
+
 
 
 
