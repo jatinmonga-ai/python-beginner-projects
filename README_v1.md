@@ -130,6 +130,40 @@ Some Windows terminals don’t support emojis, so they might appear as boxes.
 But IDLE always shows emojis correctly, so use IDLE to run this project.
 
 
+#6. QR Code Generator
+
+This is a simple and useful Python project that generates QR codes from any text or URL.  
+It's perfect for beginners learning Python and trying real-world applications.
+
+## 🚀 Features
+- Convert any text or link into a QR code  
+- Saves the QR code as an image (`my_qr_code.png`)  
+- Very beginner-friendly  
+- Uses only one Python library  
+
+## 📦 Requirements
+Install the required library using:
+-Open CMD / Terminal and run:
+-pip install qrcode[pil]
+-This installs everything needed.
+
+## 🧾 How to Run
+1. Copy the code into a file named `qr_generator.py`
+2. Run the script:
+3. Enter any text or URL you want
+4. Your QR code will be saved automatically as `my_qr_code.png` in the same folder, you saved original file.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
