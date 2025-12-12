@@ -1,4 +1,4 @@
-Emoji Chatbot 
+# Emoji Chatbot 
 
 A super simple and fun "Python emoji chatbot" for beginners. This chatbot responds to emotions like happy, sad, angry, love, weather, and more.
 
@@ -11,8 +11,7 @@ Quick tip: "I used NOTEPAD to insert emojis, and then copy paste the code in IDL
 * Ends when the user types bye.
 
 ##  How to Run This Project
-
-### 1. Open IDLE (Python)
+1. Open IDLE (Python)
 * Search for IDLE on your computer
 * Click **File → New File**
 * Copy & paste the full code below
