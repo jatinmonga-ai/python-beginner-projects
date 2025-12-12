@@ -1,9 +1,9 @@
-#2. Password Generator
+# Password Generator
 
 This is a simple Python program that generates a strong random password based on the length you choose.
 You can continue generating new passwords or type "exit" to quit.
 
-#Features:
+## Features:
 -Generate one secure password at a time
 -Choose your own password length
 -Exit anytime
