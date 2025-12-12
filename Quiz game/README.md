@@ -1,4 +1,4 @@
-Simple Quiz Game 
+# Simple Quiz Game 
 
 A small, console-based quiz game built from scratch.  
 The quiz asks 4 simple questions; the user can answer them in any order or exit early. At the end, the program shows the final score.
@@ -15,7 +15,7 @@ The quiz asks 4 simple questions; the user can answer them in any order or exit 
 - Validates input: ensures user enters a valid menu choice.  
 - Simple console interaction — no external libraries required.
 
-## 🧑‍💻 How to Run
+## How to Run
 1. Make sure you have Python installed.  
 2. Save the main code in a file, e.g., `Quiz game.py`.  
 3. Open a terminal (or command prompt), go to the folder containing `Quiz game.py`.  
