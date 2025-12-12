@@ -17,7 +17,7 @@ Three visual graphs combined into one screen
 ### Saves Data to CSV
 - Automatically creates a file: fitness_data.csv
 ### Data Visualization
-- Creates 3 visualizations in one window:
+Creates 3 visualizations in one window:
 1. Bar Chart: Steps per day
 2. Line Chart: Calories burned
 3. Scatter Plot: Sleep vs Steps
@@ -29,6 +29,6 @@ Three visual graphs combined into one screen
 
 ## How to Run
 - Clone the repository
-- Run the script: python fitness_tracker.py
+- Run the script: fitness_tracker.py
 - A window will open showing all your graphs together.
 - A CSV file will be generated containing all the fitness data.
