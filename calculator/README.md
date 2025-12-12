@@ -1,8 +1,8 @@
-#1. Calculator
+# Calculator
 
 This is a beginner Python calculator project. 
 
-#Features:
+# Features:
 - Addition
 - Subtraction
 - Multiplication
