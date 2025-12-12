@@ -1,2 +1,2 @@
 # python-beginner-projects
-"A collection of my beginner Python projects as i learn my coding."
+"A collection of my Python projects as i learn my coding."
