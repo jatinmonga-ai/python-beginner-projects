@@ -2,11 +2,11 @@
 
 A simple Python project that generates fitness data, saves it into a CSV file, and visualizes the data using Matplotlib.
 It includes:
-Steps per day
-Calories burned
-Hours of sleep
-Correlation between sleep and steps
-Three visual graphs combined into one screen
+-Steps per day
+-Calories burned
+-Hours of sleep
+-Correlation between sleep and steps
+-Three visual graphs combined into one screen
 
 ## Features
 - Automated Data Generation
@@ -18,9 +18,9 @@ Three visual graphs combined into one screen
 - Automatically creates a file: fitness_data.csv
 ### Data Visualization
 Creates 3 visualizations in one window:
-1. Bar Chart: Steps per day
-2. Line Chart: Calories burned
-3. Scatter Plot: Sleep vs Steps
+- Bar Chart: Steps per day
+- Line Chart: Calories burned
+- Scatter Plot: Sleep vs Steps
 ### Correlation Calculation
 - Shows how strongly sleep hours relate to steps taken.
 
